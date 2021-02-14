@@ -1,0 +1,114 @@
+<html>
+    <style>
+        *{
+            padding: 0;
+            margin:0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: arial, sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        ieiet {
+            overflow: visible;
+            position: absolute;
+            top: 0px; visibility: visible;
+            width: 328px; z-index: 991;
+            height: 0px; margin-top: 57px;
+            right: 0px; margin-right: 4px;
+            transition: height 0.3s ease-in-out 0s;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        ieiet button {
+        cursor: pointer;
+        color: #fff;
+        text-decoration: none;
+        margin-left: 8px;
+        background: #1a73e8;
+        border: 1px solid transparent;
+        font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: .25px;
+        line-height: 16px;
+        margin-right: 8px;
+        min-width: 96px;
+        padding: 9px 23px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 4px;
+        box-sizing: border-box;
+        outline: none;
+        display: inline-block;
+        }
+        ieiet img {
+            width: 35px;
+            padding: 6px;
+            margin: auto 7px;
+            cursor: pointer;
+        }
+        ieiet img:hover {
+            opacity: .8;
+        }
+        .s-box {
+            width: 580px;
+            margin: 0px auto;
+            position: relative;
+            margin-top: -8px;
+            text-align: center;
+        }
+        .s-box .s-input {
+            display: block;
+            border: 1px solid #ddd;
+            color: rgba(0,0,0, 0.87);
+            font-size: 16px;
+            padding: 13px;
+            padding-left: 45px;
+            border-radius: 25px;
+            width: 100%;
+            transition: box-shadow 100ms;
+            outline: none;
+        }
+        .s-box  .s-input:hover {
+            border: 1px solid #fff;
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 
+                        0 0 2px rgba(0, 0, 0, 0.05),
+                        0 0 3px rgba(0, 0, 0, 0.05),
+                        0 0 4px rgba(0, 0, 0, 0.05), 
+                        0 0 5px rgba(0, 0, 0, 0.05), 
+                        0 0 4px rgba(0, 0, 0, 0.05), 
+                        0 0 5px rgba(0, 0, 0, 0.05)
+        }
+        .s-box .search-icon {
+            width: 20px;
+            opacity: .4;
+            position: absolute;
+            top: 13px;
+            left: 14px;
+        }
+    </style>
+    <head>
+        <title>Google</title>
+        <link rel="icon" href="attēli/icon.jpg">
+    </head>
+    <body>
+        <nav>
+            <ieiet>
+                <img src="attēli/menu.png">
+                <button>Ieiet</button>
+            </ieiet>
+                <img class="lgog" src="attēli/logo.png" alt="Google" data-atf="1" width="92" height="30"> 
+                <div class="s-box">
+                    <img src="attēli/search.svg" class="search-icon">
+                    <input type="text" class="s-input"> 
+                </div>     
+        </nav>
+    </body>
+    <footer>
+    </footer>
+</html>
